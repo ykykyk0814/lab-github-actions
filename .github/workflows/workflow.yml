@@ -70,11 +70,6 @@ jobs:
         env:
           DATABASE_URI: "redis://redis:6379"
 
-      ######################################################################
-      # Create a CODECOV_TOKEN in:
-      # Settings -> Secrets and variables -> Actions
-      ######################################################################
-
       - name: Install packages for Codecov to work
         run: |
           apt-get update
