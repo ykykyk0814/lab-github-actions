@@ -84,4 +84,4 @@ jobs:
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: nyu-devops/lab-github-actions
+          slug: ykykyk0814/lab-github-actions
